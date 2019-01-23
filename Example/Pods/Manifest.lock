@@ -1,0 +1,47 @@
+PODS:
+  - AComponent_c (0.1.0):
+    - AFNetworking (~> 2.3)
+    - CTMediator
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CTMediator (25)
+
+DEPENDENCIES:
+  - AComponent_c (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CTMediator
+
+EXTERNAL SOURCES:
+  AComponent_c:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AComponent_c: 968226ce9bdb8946c0a75ff1eb5fc9e2b92ed949
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+
+PODFILE CHECKSUM: d243e577df19cb4c13e7f07bad9837734acd5e2c
+
+COCOAPODS: 1.6.0.beta.2
